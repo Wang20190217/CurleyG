@@ -1,0 +1,13 @@
+/.idea/
+
+/package-lock.json
+
+/node_modules/
+
+/.site/
+
+/deploy.sh
+
+/deploy.bak.sh
+
+/docs/.vuepress/dist/
