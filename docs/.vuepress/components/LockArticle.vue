@@ -60,7 +60,9 @@
         },
         methods: {
             isLock() {
-                return "need" === this.$page.frontmatter.lock;
+                //TODO 暂时关闭阅读全文的权限
+                // return "need" === this.$page.frontmatter.lock;
+                return false;
             },
             articleObj: function () {
                 let $article = $('.theme-default-content');

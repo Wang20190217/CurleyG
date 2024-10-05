@@ -1,16 +1,16 @@
 ---
 layout: post
-category: binghe-code-concurrent
+category: curleyg-code-concurrent
 title: SimpleDateFormat类到底为啥不是线程安全的？
 tagline: by CurleyG
-tag: [concurrent,binghe-code-concurrent]
+tag: [concurrent,curleyg-code-concurrent]
 excerpt: 首先问下大家：你使用的SimpleDateFormat类还安全吗？为什么说SimpleDateFormat类不是线程安全的？带着问题从本文中寻求答案。
 lock: need
 ---
 
 # SimpleDateFormat类到底为啥不是线程安全的？（附六种解决方案，建议收藏）
 
-**大家好，我是冰河~~**
+**大家好，我是CurleyG~~**
 
 **首先问下大家：你使用的SimpleDateFormat类还安全吗？为什么说SimpleDateFormat类不是线程安全的？带着问题从本文中寻求答案。**
 

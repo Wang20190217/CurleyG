@@ -1,9 +1,9 @@
 ---
 layout: post
-category: binghe-code-hack
+category: curleyg-code-hack
 title: Msfvenom生成各类Payload命令
 tagline: by CurleyG
-tag: [hack,binghe-code-hack]
+tag: [hack,curleyg-code-hack]
 excerpt: Msfvenom生成各类Payload命令
 lock: need
 ---

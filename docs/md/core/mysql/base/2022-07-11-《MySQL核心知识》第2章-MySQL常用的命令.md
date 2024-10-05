@@ -1,9 +1,9 @@
 ---
 layout: post
-category: binghe-mysql-base
+category: curleyg-mysql-base
 title: 第02章：MySQL常用的命令
 tagline: by CurleyG
-tag: [mysql,binghe-mysql-base]
+tag: [mysql,curleyg-mysql-base]
 excerpt: 第02章：MySQL常用的命令
 lock: need
 ---
@@ -12,7 +12,7 @@ lock: need
 
 > 《RPC手撸专栏》已经在 **冰河技术** 知识星球开始更新了，冰河要带你从零开始手撸一个可在实际环境使用的高性能、可扩展的RPC框架，想要一起手撸RPC的小伙伴文末有加入星球的方式。
 
-**大家好，我是冰河~~**
+**大家好，我是CurleyG~~**
 
 今天是《MySQL核心知识》的第2章，今天给大家讲讲MySQL的常用命令，好了，不多说了，开始今天的正题。
 

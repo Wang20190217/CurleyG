@@ -1,9 +1,9 @@
 ---
 layout: post
-category: binghe-code-hack
+category: curleyg-code-hack
 title: PowerShell工具之Powerup详解实录
 tagline: by CurleyG
-tag: [hack,binghe-code-hack]
+tag: [hack,curleyg-code-hack]
 excerpt: PowerShell工具之Powerup详解实录
 lock: need
 ---

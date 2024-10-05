@@ -1,9 +1,9 @@
 ---
 layout: post
-category: binghe-code-life
+category: curleyg-code-life
 title: 第08章：Stream API基础
 tagline: by CurleyG
-tag: [java8,binghe-code-java8]
+tag: [java8,curleyg-code-java8]
 excerpt: Java8中有两大最为重要的改变。第一个是 Lambda 表达式；另外一个则是 Stream API(java.util.stream.*)  ，那什么是Stream API呢？Java8中的Stream又该如何使用呢？
 lock: need
 ---

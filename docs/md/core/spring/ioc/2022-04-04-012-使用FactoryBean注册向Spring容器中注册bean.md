@@ -1,9 +1,9 @@
 ---
 layout: post
-category: binghe-spring-ioc
+category: curleyg-spring-ioc
 title: 第11章：使用FactoryBean向Spring容器中注册bean
 tagline: by CurleyG
-tag: [spring.spring-ioc,binghe-spring-ioc]
+tag: [spring.spring-ioc,curleyg-spring-ioc]
 excerpt: 在前面的文章中，我们知道可以通过多种方式向Spring容器中注册bean。可以使用@Configuration结合@Bean向Spring容器中注册bean；可以按照条件向Spring容器中注册bean；可以使用@Import向容器中快速导入bean对象；可以在@Import中使用ImportBeanDefinitionRegistrar向容器中注册bean。
 lock: need
 ---

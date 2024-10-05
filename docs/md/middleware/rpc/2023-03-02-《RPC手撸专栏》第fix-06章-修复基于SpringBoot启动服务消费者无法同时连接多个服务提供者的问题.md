@@ -1,9 +1,9 @@
 ---
 layout: post
-category: binghe-code-rpc
+category: curleyg-code-rpc
 title: 第fix-06章：修复基于SpringBoot启动服务消费者无法同时连接多个服务提供者的问题
 tagline: by CurleyG
-tag: [rpc,mykit-rpc,binghe-code-rpc]
+tag: [rpc,mykit-rpc,curleyg-code-rpc]
 excerpt: 第fix-06章：修复基于SpringBoot启动服务消费者无法同时连接多个服务提供者的问题
 lock: need
 ---
@@ -18,7 +18,7 @@ lock: need
 
 > 沉淀，成长，突破，帮助他人，成就自我。
 
-**大家好，我是冰河~~**
+**大家好，我是CurleyG~~**
 
 在写《RPC手撸专栏》的过程中，针对专栏版本的代码，在书写的过程中，会提前埋一些坑进去，使各位星球的小伙伴在调试代码的过程中，能够自己去发现问题，并且分析问题，最好也能够自己解决问题。经过自己发现问题->分析问题->解决问题的过程，能够提升大家对于RPC框架源码的参与过程，更重要的是，能够不断提升大家自己发现问题、分析问题和解决问题的能力，这种能够力才是程序员最核心的竞争力。
 

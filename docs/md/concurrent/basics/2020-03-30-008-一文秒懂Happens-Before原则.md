@@ -1,16 +1,16 @@
 ---
 layout: post
-category: binghe-code-concurrent
+category: curleyg-code-concurrent
 title: 一文秒懂Happens-Before原则
 tagline: by CurleyG
-tag: [concurrent,binghe-code-concurrent]
+tag: [concurrent,curleyg-code-concurrent]
 excerpt: 在并发编程中，Happens-Before原则是我们必须要掌握的，今天我们就一起来详细聊聊并发编程中的Happens-Before原则。
 lock: need
 ---
 
 # 【高并发】一文秒懂Happens-Before原则
 
-**大家好，我是冰河~~**
+**大家好，我是CurleyG~~**
 
 在并发编程中，Happens-Before原则是我们必须要掌握的，今天我们就一起来详细聊聊并发编程中的Happens-Before原则。
 

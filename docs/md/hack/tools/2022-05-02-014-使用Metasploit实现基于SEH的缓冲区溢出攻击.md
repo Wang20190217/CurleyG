@@ -1,9 +1,9 @@
 ---
 layout: post
-category: binghe-code-hack
+category: curleyg-code-hack
 title: 使用Metasploit实现基于SEH的缓冲区溢出攻击
 tagline: by CurleyG
-tag: [hack,binghe-code-hack]
+tag: [hack,curleyg-code-hack]
 excerpt: 使用Metasploit实现基于SEH的缓冲区溢出攻击
 lock: need
 ---

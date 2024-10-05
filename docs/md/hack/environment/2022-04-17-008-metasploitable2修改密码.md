@@ -1,9 +1,9 @@
 ---
 layout: post
-category: binghe-code-hack
+category: curleyg-code-hack
 title: metasploitable2修改密码
 tagline: by CurleyG
-tag: [hack,binghe-code-hack]
+tag: [hack,curleyg-code-hack]
 excerpt: metasploitable2修改密码
 lock: need
 ---

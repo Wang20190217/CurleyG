@@ -173,7 +173,7 @@ module.exports = {
         }]
     ],
     themeConfig: {
-        docsRepo: "binghe001/BingheGuide",
+        docsRepo: "Wang20190217/CurleyG",
         // 编辑文档的所在目录
         docsDir: 'docs',
         // 文档放在一个特定的分支下：
@@ -215,12 +215,16 @@ module.exports = {
                             {
                                 text: 'Java基础',  items: [
                                     {
-                                        text: '基本语法',
+                                        text: '概述',
                                         link: '/md/core/java/basics/default.md'
                                     },
                                     {
+                                        text: '基本语法',
+                                        link: '/md/core/java/basics/2024-10-05-java基础语法.md'
+                                    },
+                                    {
                                         text: '面向对象',
-                                        link: '/md/core/java/basics/default.md'
+                                        link: '/md/core/java/basics/2024-10-05-java面向对象.md'
                                     },
                                     {
                                         text: '正则表达式',
@@ -795,6 +799,9 @@ function getBarJava() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
+                "basics/default.md",
+                "basics/2024-10-05-java基础语法.md",
+                "basics/2024-10-05-java面向对象.md",
                 "basics/2022-04-28-全网最全正则表达式总结.md",
             ]
         },

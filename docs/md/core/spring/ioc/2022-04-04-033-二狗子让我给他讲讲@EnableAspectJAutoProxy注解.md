@@ -1,9 +1,9 @@
 ---
 layout: post
-category: binghe-spring-ioc
+category: curleyg-spring-ioc
 title: 第32章：@EnableAspectJAutoProxy注解原理
 tagline: by CurleyG
-tag: [spring.spring-ioc,binghe-spring-ioc]
+tag: [spring.spring-ioc,curleyg-spring-ioc]
 excerpt: 最近，二狗子入职了新公司，新入职的那几天确实有点飘。不过慢慢的，他发现他身边的人各个身怀绝技啊，有Spring源码的贡献者，有Dubbo源码的贡献者，有MyBatis源码的贡献者，还有研究AI的大佬，个个都是大神级别的人物。二狗子有点慌，想起自己虽然入职了，但是比起其他人确实差点远啊。怎么办呢？先从基础补起呗，他发现自己对于Spring的理解还不算太深。于是乎，他让我给他讲讲Spring的@EnableAspectJAutoProxy注解。
 lock: need
 ---

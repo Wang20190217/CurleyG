@@ -1,9 +1,9 @@
 ---
 layout: post
-category: binghe-code-hack
+category: curleyg-code-hack
 title: MSF-Meterpreter清理日志
 tagline: by CurleyG
-tag: [hack,binghe-code-hack]
+tag: [hack,curleyg-code-hack]
 excerpt: MSF-Meterpreter清理日志
 lock: need
 ---

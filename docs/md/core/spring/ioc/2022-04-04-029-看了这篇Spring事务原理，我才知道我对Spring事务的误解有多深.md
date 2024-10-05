@@ -1,9 +1,9 @@
 ---
 layout: post
-category: binghe-spring-ioc
+category: curleyg-spring-ioc
 title: 第28章：Spring事务原理
 tagline: by CurleyG
-tag: [spring.spring-ioc,binghe-spring-ioc]
+tag: [spring.spring-ioc,curleyg-spring-ioc]
 excerpt: 有很多小伙伴们留言说，冰河，你能不能写一篇关于Spring事务的文章呢？我：可以啊，安排上了！那还等什么呢？走起啊！！
 lock: need
 ---

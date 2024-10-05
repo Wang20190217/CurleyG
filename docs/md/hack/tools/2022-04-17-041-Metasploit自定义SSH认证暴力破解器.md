@@ -1,9 +1,9 @@
 ---
 layout: post
-category: binghe-code-hack
+category: curleyg-code-hack
 title: Metasploit自定义SSH认证暴力破解器
 tagline: by CurleyG
-tag: [hack,binghe-code-hack]
+tag: [hack,curleyg-code-hack]
 excerpt: Metasploit自定义SSH认证暴力破解器
 lock: need
 ---

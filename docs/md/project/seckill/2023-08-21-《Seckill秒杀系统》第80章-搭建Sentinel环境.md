@@ -16,7 +16,7 @@ pay: https://articles.zsxq.com/id_ofdkbfo5ptww.html
 * 本章难度：★★☆☆☆
 * 本章重点：掌握本地搭建Sentinel环境的方法，重点掌握Sentinel的特征与基本原理，并能够灵活将Sentinel应用到自身实际项目中。
 
-**大家好，我是冰河~~**
+**大家好，我是CurleyG~~**
 
 随着微服务的流行，服务和服务之间的稳定性变得越来越重要。Sentinel 以流量为切入点，从流量控制、熔断降级、系统负载保护等多个维度保护服务的稳定性。
 

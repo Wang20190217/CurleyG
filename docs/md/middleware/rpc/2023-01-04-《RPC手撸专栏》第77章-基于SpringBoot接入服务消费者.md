@@ -13,7 +13,7 @@ pay: https://articles.zsxq.com/id_9cq199w02eim.html
 
 > 沉淀，成长，突破，帮助他人，成就自我。
 
-**大家好，我是冰河~~**
+**大家好，我是CurleyG~~**
 
 在整合Spring篇章，我们已经实现了服务提供者整合Spring，并基于Spring XML和注解的方式实现了如何接入服务提供者。同时，也实现了服务消费者整合Spring，并且基于Spring XML和注解的方式实现了接入服务消费者的功能。
 

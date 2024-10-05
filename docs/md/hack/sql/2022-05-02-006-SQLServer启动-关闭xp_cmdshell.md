@@ -1,9 +1,9 @@
 ---
 layout: post
-category: binghe-code-hack
+category: curleyg-code-hack
 title: SQL Server启动/关闭xp_cmdshell
 tagline: by CurleyG
-tag: [hack,binghe-code-hack]
+tag: [hack,curleyg-code-hack]
 excerpt: SQL Server启动/关闭xp_cmdshell
 lock: need
 ---

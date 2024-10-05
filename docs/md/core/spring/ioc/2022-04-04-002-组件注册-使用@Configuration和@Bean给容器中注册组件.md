@@ -1,9 +1,9 @@
 ---
 layout: post
-category: binghe-spring-ioc
+category: curleyg-spring-ioc
 title: 第01章：组件注册-使用@Configuration和@Bean给容器中注册组件
 tagline: by CurleyG
-tag: [spring.spring-ioc,binghe-spring-ioc]
+tag: [spring.spring-ioc,curleyg-spring-ioc]
 excerpt: 在之前的Spring版本中，我们只能通过写XML配置文件来定义我们的Bean，XML配置不仅繁琐，而且很容易出错，稍有不慎就会导致编写的应用程序各种报错，排查半天，发现是XML文件配置不对！另外，每个项目编写大量的XML文件来配置Spring，也大大增加了项目维护的复杂度，往往很多个项目的Spring XML文件的配置大部分是相同的，只有很少量的配置不同，这也造成了配置文件上的冗余。
 lock: need
 ---

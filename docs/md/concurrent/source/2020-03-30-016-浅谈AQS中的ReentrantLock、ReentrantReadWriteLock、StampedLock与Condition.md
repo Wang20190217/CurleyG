@@ -1,9 +1,9 @@
 ---
 layout: post
-category: binghe-code-concurrent
+category: curleyg-code-concurrent
 title: 浅谈AQS中的ReentrantLock、ReentrantReadWriteLock、StampedLock与Condition
 tagline: by CurleyG
-tag: [concurrent,binghe-code-concurrent]
+tag: [concurrent,curleyg-code-concurrent]
 excerpt: Java中主要分为两类锁，一类是synchronized修饰的锁，另外一类就是J.U.C中提供的锁。J.U.C中提供的核心锁就是ReentrantLock。
 lock: need
 ---

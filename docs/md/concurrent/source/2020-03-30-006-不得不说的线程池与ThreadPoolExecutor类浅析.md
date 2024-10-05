@@ -1,16 +1,16 @@
 ---
 layout: post
-category: binghe-code-concurrent
+category: curleyg-code-concurrent
 title: 不得不说的线程池与ThreadPoolExecutor类浅析
 tagline: by CurleyG
-tag: [concurrent,binghe-code-concurrent]
+tag: [concurrent,curleyg-code-concurrent]
 excerpt: 今天，我们继续聊高并发相关的话题，今天，我们就从源码角度深入探讨下ThreadPoolExecutor类。
 lock: need
 ---
 
 # 【高并发】不得不说的线程池与ThreadPoolExecutor类浅析
 
-**大家好，我是冰河~~**
+**大家好，我是CurleyG~~**
 
 今天，我们继续聊高并发相关的话题，今天，我们就从源码角度深入探讨下ThreadPoolExecutor类。
 

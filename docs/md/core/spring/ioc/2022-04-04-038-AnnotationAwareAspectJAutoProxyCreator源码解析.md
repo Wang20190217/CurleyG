@@ -1,9 +1,9 @@
 ---
 layout: post
-category: binghe-spring-ioc
+category: curleyg-spring-ioc
 title: 第37章：Spring AOP核心类解析
 tagline: by CurleyG
-tag: [spring.spring-ioc,binghe-spring-ioc]
+tag: [spring.spring-ioc,curleyg-spring-ioc]
 excerpt: 最近，不少小伙伴在催更【Spring注解驱动开发】专题，好吧，【Spring注解驱动开发】专题确实有很长时间没更新了。那我们从今天开始更新【Spring注解驱动开发】专题，同样的，我们还是以源码解析为主。
 lock: need
 ---

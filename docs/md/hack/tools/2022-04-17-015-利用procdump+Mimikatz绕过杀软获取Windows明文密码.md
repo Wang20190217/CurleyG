@@ -1,9 +1,9 @@
 ---
 layout: post
-category: binghe-code-hack
+category: curleyg-code-hack
 title: 利用procdump+Mimikatz 绕过杀软获取Windows明文密码
 tagline: by CurleyG
-tag: [hack,binghe-code-hack]
+tag: [hack,curleyg-code-hack]
 excerpt: 利用procdump+Mimikatz 绕过杀软获取Windows明文密码
 lock: need
 ---

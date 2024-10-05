@@ -1,9 +1,9 @@
 ---
 layout: post
-category: binghe-code-hack
+category: curleyg-code-hack
 title: discuz报错Table 'uc.uc_pms' doesn't exist，uc_pms不存在
 tagline: by CurleyG
-tag: [hack,binghe-code-hack]
+tag: [hack,curleyg-code-hack]
 excerpt: discuz报错Table 'uc.uc_pms' doesn't exist，uc_pms不存在
 lock: need
 ---

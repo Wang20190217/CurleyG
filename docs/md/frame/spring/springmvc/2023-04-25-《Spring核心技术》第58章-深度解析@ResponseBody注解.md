@@ -13,7 +13,7 @@ pay: https://articles.zsxq.com/id_x5e4eh58lfrv.html
 
 > 沉淀，成长，突破，帮助他人，成就自我。
 
-**大家好，我是冰河~~**
+**大家好，我是CurleyG~~**
 
 ------
 

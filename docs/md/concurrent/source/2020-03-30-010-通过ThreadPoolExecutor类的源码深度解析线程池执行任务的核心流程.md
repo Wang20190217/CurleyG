@@ -1,9 +1,9 @@
 ---
 layout: post
-category: binghe-code-concurrent
+category: curleyg-code-concurrent
 title: 通过ThreadPoolExecutor类的源码深度解析线程池执行任务的核心流程 
 tagline: by CurleyG
-tag: [concurrent,binghe-code-concurrent]
+tag: [concurrent,curleyg-code-concurrent]
 excerpt: ThreadPoolExecutor是Java线程池中最核心的类之一，它能够保证线程池按照正常的业务逻辑执行任务，并通过原子方式更新线程池每个阶段的状态
 lock: need
 ---

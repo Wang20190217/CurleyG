@@ -1,9 +1,9 @@
 ---
 layout: post
-category: binghe-code-springcloudalibaba
+category: curleyg-code-springcloudalibaba
 title: 第01章：专栏开篇
 tagline: by CurleyG
-tag: [springcloud,springcloudalibaba,binghe-code-springcloudalibaba]
+tag: [springcloud,springcloudalibaba,curleyg-code-springcloudalibaba]
 excerpt: 很多小伙伴留言说，冰河你能不能写一些关于Java8的文章呢，看书看不下去，看视频进度太慢。好吧，看到不少读者对Java8还是比较陌生的，那我就写一些关于Java8的文章吧，希望对大家有所帮助。
 lock: need
 ---
@@ -16,7 +16,7 @@ lock: need
 <br/>博客：[https://binghe.gitcode.host](https://binghe.gitcode.host)
 <br/>文章汇总：[https://binghe.gitcode.host/md/all/all.html](https://binghe.gitcode.host/md/all/all.html)
 
-**大家好，我是冰河~~**
+**大家好，我是CurleyG~~**
 
 今天是2022年清明假期的前一天，前段时间一直有小伙伴问我啥时能出一个SpringCloud Alibaba实战的系列文章。最近一段时间，冰河手上的事情确实是太多了，有点忙不过来。
 

@@ -1,16 +1,16 @@
 ---
 layout: post
-category: binghe-mysql-base
+category: curleyg-mysql-base
 title: 【置顶】MySQL之MVCC实现原理
 tagline: by CurleyG
-tag: [mysql,binghe-mysql-base]
+tag: [mysql,curleyg-mysql-base]
 excerpt: 【置顶】MySQL之MVCC实现原理
 lock: need
 ---
 
 # 【置顶】MySQL之MVCC实现原理
 
-**大家好，我是冰河~~**
+**大家好，我是CurleyG~~**
 
 有很多小伙伴不太了解到底什么是MVCC，今天就跟大家一起来透彻的分析下，好了，咱们直接肝正文吧。
 

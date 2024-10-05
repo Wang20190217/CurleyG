@@ -1,9 +1,9 @@
 ---
 layout: post
-category: binghe-code-hack
+category: curleyg-code-hack
 title: Metasploit攻击VSFTPD2.3.4后门漏洞并渗透内网
 tagline: by CurleyG
-tag: [hack,binghe-code-hack]
+tag: [hack,curleyg-code-hack]
 excerpt: Metasploit攻击VSFTPD2.3.4后门漏洞并渗透内网
 lock: need
 ---

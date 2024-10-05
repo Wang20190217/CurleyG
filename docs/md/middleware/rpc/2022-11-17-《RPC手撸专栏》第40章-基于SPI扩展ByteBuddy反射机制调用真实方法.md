@@ -12,7 +12,7 @@ pay: https://articles.zsxq.com/id_0t7len2qpez1.html
 
 > 沉淀，成长，突破，帮助他人，成就自我。
 
-**大家好，我是冰河~~**
+**大家好，我是CurleyG~~**
 
 在前面的章节中，我们在服务消费者端基于SPI扩展了JDK、CGLib、Javassist、ByteBuddy和ASM动态代理机制。在服务提供者端，基于SPI扩展了JDK、CGLib和Javassist反射机制调用真实方法的功能。
 

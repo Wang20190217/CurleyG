@@ -1,6 +1,6 @@
 ---
 layout: post
-category: binghe-code-spring
+category: curleyg-code-spring
 title: 第00章：开篇：我要带你一步步调试Spring6.0源码啦！
 tagline: by CurleyG
 tag: [spring,ioc,aop,transaction,springmvc]
@@ -18,7 +18,7 @@ lock: need
 
 > 沉淀，成长，突破，帮助他人，成就自我。
 
-**大家好，我是冰河~~**
+**大家好，我是CurleyG~~**
 
 提起Spring，可以这么说，Spring几乎是Java Web领域中必不可少的基础性开发框架，Spring中提供的IOC、DI、AOP以及声明式事务等技术极大的简化了开发人员的工作量。试问：在Java Web开发领域，有谁不知道Spring？又有多少人没有使用过Spring呢？如果你还没有使用过Spring，可以这么说，你就不是一个真正的Java Web开发人员，或者你还没有真正步入Java Web开发领域。
 

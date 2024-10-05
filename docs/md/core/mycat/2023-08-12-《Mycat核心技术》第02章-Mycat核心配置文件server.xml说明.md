@@ -21,7 +21,7 @@ lock: need
 * 本章难度：★★☆☆☆
 * 本章重点：介绍Mycat核心配置文件server.xml，理解server.xml文件在Mycat中的作用，并能够在实际项目中灵活使用Mycat进行分库分表。
 
-**大家好，我是冰河~~**
+**大家好，我是CurleyG~~**
 
 今天给大家介绍《Mycat核心技术》的第02章：给大家简单介绍下Mycat中的核心配置文件server.xml，好了，开始今天的内容。
 

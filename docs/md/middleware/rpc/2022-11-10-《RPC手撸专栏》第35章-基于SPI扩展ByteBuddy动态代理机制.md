@@ -12,7 +12,7 @@ pay: https://articles.zsxq.com/id_sth5wav0oicw.html
 
 > 沉淀，成长，突破，帮助他人，成就自我。
 
-**大家好，我是冰河~~**
+**大家好，我是CurleyG~~**
 
 在前面的章节中，我们基于SPI扩展了JDK、CGLib和Javassist动态代理机制，但这还不够，我还想扩展其他的动态代理机制，来吧，一起再扩展吧。
 

@@ -16,7 +16,7 @@ pay: https://articles.zsxq.com/id_njz1wp1hsjac.html
 * 本章难度：★★☆☆☆
 * 本章重点：掌握扩展Dubbo源码的方式，使Sleuth能够支持Dubbo实现链路追踪，并能够灵活将实现方案应用到自身实际项目中。
 
-**大家好，我是冰河~~**
+**大家好，我是CurleyG~~**
 
 秒杀系统已经整合了Sleuth实现链路追踪，如果是通过HTTP方式调用接口，则秒杀系统能够实现分布式链路追踪。由于秒杀系统的实现中，使用了Dubbo3，并且基于SpringCloud 2021.0.1和SpringCloud Alibaba2021.0.1实现，此版本下的Sleuth默认是不支持Dubbo3实现链路追踪的。
 

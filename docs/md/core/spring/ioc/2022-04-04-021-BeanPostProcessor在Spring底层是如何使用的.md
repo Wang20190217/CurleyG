@@ -1,9 +1,9 @@
 ---
 layout: post
-category: binghe-spring-ioc
+category: curleyg-spring-ioc
 title: 第20章：BeanPostProcessor在Spring底层是如何使用的
 tagline: by CurleyG
-tag: [spring.spring-ioc,binghe-spring-ioc]
+tag: [spring.spring-ioc,curleyg-spring-ioc]
 excerpt: 在《[【String注解驱动开发】面试官再问你BeanPostProcessor的执行流程，就把这篇文章甩给他！](https://mp.weixin.qq.com/s?__biz=Mzg3MzE1NTIzNA==&mid=2247485089&idx=1&sn=466c246a28440329d4bf3d82a2214229&chksm=cee5196cf992907a3aaa9e7bfef971328a16ceb525c8c80a34822e04955de3f423e1b8f90540&token=2101168258&lang=zh_CN#rd)》一文中，我们详细的介绍了BeanPostProcessor的执行流程。那么，BeanPostProcessor在Spring底层是如何使用的？今天，我们就一起来探讨下Spring的源码，一探BeanPostProcessor在Spring底层的使用情况。
 lock: need
 ---

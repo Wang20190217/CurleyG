@@ -1,9 +1,9 @@
 ---
 layout: post
-category: binghe-code-hack
+category: curleyg-code-hack
 title: 使用rarcrack暴力破解RAR，ZIP，7Z压缩包
 tagline: by CurleyG
-tag: [hack,binghe-code-hack]
+tag: [hack,curleyg-code-hack]
 excerpt: 使用rarcrack暴力破解RAR，ZIP，7Z压缩包
 lock: need
 ---

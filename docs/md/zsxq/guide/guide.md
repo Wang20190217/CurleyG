@@ -11,7 +11,7 @@ title: 星球学习指南：快速了解星球，开启学习之旅！
 
 > 沉淀，成长，突破，帮助他人，成就自我。
 
-**大家好，我是冰河~~**
+**大家好，我是CurleyG~~**
 
 欢迎各位小伙伴们加入【[冰河技术](https://public.zsxq.com/groups/15552115418882.html) 】知识星球，为了帮助大家更好的学习星球的课程，在正式学习课程之前，希望大家花几分钟线阅读下这个学习指南，同时，这个链接：[https://binghe.gitcode.host/md/zsxq/introduce.html](https://binghe.gitcode.host/md/zsxq/introduce.html) 也可以帮助快速了解星球的课程，包括：业务场景项目、中间件项目、超硬核项目、开开源项目、辅助学习、技术小册、架构进阶、应聘面试、职场规划等。
 

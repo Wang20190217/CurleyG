@@ -1,16 +1,16 @@
 ---
 layout: post
-category: binghe-code-concurrent
+category: curleyg-code-concurrent
 title: 由InterruptedException异常引发的思考
 tagline: by CurleyG
-tag: [concurrent,binghe-code-concurrent]
+tag: [concurrent,curleyg-code-concurrent]
 excerpt: 当我们在调用Java对象的wait()方法或者线程的sleep()方法时，需要捕获并处理InterruptedException异常。如果我们对InterruptedException异常处理不当，则会发生我们意想不到的后果！今天，我们就以案例的形式聊聊并发编程中的InterruptedException异常。
 lock: need
 ---
 
 # 【高并发】由InterruptedException异常引发的思考
 
-**大家好，我是冰河~~**
+**大家好，我是CurleyG~~**
 
 当我们在调用Java对象的wait()方法或者线程的sleep()方法时，需要捕获并处理InterruptedException异常。如果我们对InterruptedException异常处理不当，则会发生我们意想不到的后果！今天，我们就以案例的形式聊聊并发编程中的InterruptedException异常。
 

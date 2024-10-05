@@ -1,9 +1,9 @@
 ---
 layout: post
-category: binghe-code-concurrent
+category: curleyg-code-concurrent
 title: ScheduledThreadPoolExecutor与Timer的区别和简单示例
 tagline: by CurleyG
-tag: [concurrent,binghe-code-concurrent]
+tag: [concurrent,curleyg-code-concurrent]
 excerpt: JDK 1.5开始提供ScheduledThreadPoolExecutor类，ScheduledThreadPoolExecutor类继承ThreadPoolExecutor类重用线程池实现了任务的周期性调度功能。在JDK 1.5之前，实现任务的周期性调度主要使用的是Timer类和TimerTask类。本文，就简单介绍下ScheduledThreadPoolExecutor类与Timer类的区别，ScheduledThreadPoolExecutor类相比于Timer类来说，究竟有哪些优势，以及二者分别实现任务调度的简单示例。
 lock: need
 ---

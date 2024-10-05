@@ -16,7 +16,7 @@ pay: https://articles.zsxq.com/id_kt44xk81wbd8.html
 * 本章难度：★★☆☆☆
 * 本章重点：以实战的方式掌握Sentinel的核心规则、流控规则、熔断规则、热点规则、授权规则、系统规则、@SentinelResource注解，以及Sentinel的持久化，全面了解Sentinel后，能够将Sentinel灵活应用到自身实际项目中。
 
-**大家好，我是冰河~~**
+**大家好，我是CurleyG~~**
 
 Sentinel能够在高并发、大流量的场景下有效的对流量进行管控，包括限流、熔断、降级、系统负载保护等，为了让小伙伴们更加清楚的了解Sentinel的功能和使用案例，本章，就以加餐的形式给大家详细讲讲Sentinel。
 

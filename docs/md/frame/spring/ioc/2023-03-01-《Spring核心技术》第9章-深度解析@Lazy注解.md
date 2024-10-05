@@ -1,6 +1,6 @@
 ---
 layout: post
-category: binghe-code-spring
+category: curleyg-code-spring
 title: 第09章：深度解析@Lazy注解
 tagline: by CurleyG
 tag: [spring,ioc,aop,transaction,springmvc]
@@ -18,7 +18,7 @@ lock: need
 
 > 沉淀，成长，突破，帮助他人，成就自我。
 
-**大家好，我是冰河~~**
+**大家好，我是CurleyG~~**
 
 ------
 

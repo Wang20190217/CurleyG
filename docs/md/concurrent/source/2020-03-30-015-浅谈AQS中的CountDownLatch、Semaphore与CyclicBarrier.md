@@ -1,16 +1,16 @@
 ---
 layout: post
-category: binghe-code-concurrent
+category: curleyg-code-concurrent
 title: 浅谈AQS中的CountDownLatch、Semaphore与CyclicBarrier
 tagline: by CurleyG
-tag: [concurrent,binghe-code-concurrent]
+tag: [concurrent,curleyg-code-concurrent]
 excerpt: 今天，跟大家聊聊AQS中的CountDownLatch、Semaphore与CyclicBarrier，好了，进入今天的主题吧。
 lock: need
 ---
 
 # 【高并发】浅谈AQS中的CountDownLatch、Semaphore与CyclicBarrier
 
-**大家好，我是冰河~~**
+**大家好，我是CurleyG~~**
 
 今天，跟大家聊聊AQS中的CountDownLatch、Semaphore与CyclicBarrier，好了，进入今天的主题吧。
 

@@ -12,7 +12,7 @@ pay: https://articles.zsxq.com/id_6v8wcbaaitg4.html
 
 > 沉淀，成长，突破，帮助他人，成就自我。
 
-**大家好，我是冰河~~**
+**大家好，我是CurleyG~~**
 
 直接用while(true)循环的方式实现异步转同步还是有点low啊，咱还是升级为使用CompletableFuture吧。
 

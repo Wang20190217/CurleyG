@@ -1,9 +1,9 @@
 ---
 layout: post
-category: binghe-code-hack
+category: curleyg-code-hack
 title: 触发Easy File Sharing Web Server 7.2 HEAD缓冲区溢出的Python脚本
 tagline: by CurleyG
-tag: [hack,binghe-code-hack]
+tag: [hack,curleyg-code-hack]
 excerpt: 触发Easy File Sharing Web Server 7.2 HEAD缓冲区溢出的Python脚本
 lock: need
 ---

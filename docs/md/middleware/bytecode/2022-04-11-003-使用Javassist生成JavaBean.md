@@ -1,16 +1,16 @@
 ---
 layout: post
-category: binghe-code-bytecode
+category: curleyg-code-bytecode
 title: 字节码编程 | 使用Javassist生成JavaBean
 tagline: by CurleyG
-tag: [bytecode,binghe-code-bytecode]
+tag: [bytecode,curleyg-code-bytecode]
 excerpt: 在实际工作过程中，我们可以通过对Java的字节码进行插桩，以便拦截我们需要拦截的类和方法，对这些类和方法进行改造或者直接动态生成相应的类来实现拦截的逻辑。
 lock: need
 ---
 
 # 字节码编程 | 使用Javassist生成JavaBean
 
-**大家好，我是冰河~~**
+**大家好，我是CurleyG~~**
 
 在实际工作过程中，我们可以通过对Java的字节码进行插桩，以便拦截我们需要拦截的类和方法，对这些类和方法进行改造或者直接动态生成相应的类来实现拦截的逻辑。
 

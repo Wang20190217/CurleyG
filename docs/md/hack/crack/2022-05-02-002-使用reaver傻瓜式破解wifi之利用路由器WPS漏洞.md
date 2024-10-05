@@ -1,9 +1,9 @@
 ---
 layout: post
-category: binghe-code-hack
+category: curleyg-code-hack
 title: 使用reaver傻瓜式破解wifi之利用路由器WPS漏洞
 tagline: by CurleyG
-tag: [hack,binghe-code-hack]
+tag: [hack,curleyg-code-hack]
 excerpt: 使用reaver傻瓜式破解wifi之利用路由器WPS漏洞
 lock: need
 ---

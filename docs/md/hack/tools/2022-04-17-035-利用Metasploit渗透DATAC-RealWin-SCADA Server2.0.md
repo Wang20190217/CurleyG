@@ -1,9 +1,9 @@
 ---
 layout: post
-category: binghe-code-hack
+category: curleyg-code-hack
 title: 利用Metasploit渗透DATAC-RealWin-SCADA Server2.0
 tagline: by CurleyG
-tag: [hack,binghe-code-hack]
+tag: [hack,curleyg-code-hack]
 excerpt: 利用Metasploit渗透DATAC-RealWin-SCADA Server2.0
 lock: need
 ---

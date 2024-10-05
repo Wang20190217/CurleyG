@@ -1,9 +1,9 @@
 ---
 layout: post
-category: binghe-code-rpc
+category: curleyg-code-rpc
 title: 第80章：整合SpringCloud Alibaba实际项目
 tagline: by CurleyG
-tag: [rpc,mykit-rpc,binghe-code-rpc]
+tag: [rpc,mykit-rpc,curleyg-code-rpc]
 excerpt: 第80章：整合SpringCloud Alibaba实际项目
 lock: need
 ---
@@ -18,7 +18,7 @@ lock: need
 
 > 沉淀，成长，突破，帮助他人，成就自我。
 
-**大家好，我是冰河~~**
+**大家好，我是CurleyG~~**
 
 目前，我们自己手写的RPC框架已经完成了整体设计、服务提供者的实现、服务消费者的实现、注册中心的实现、负载均衡的实现、SPI扩展序列化机制、SPI扩展动态代理机制、SPI扩展反射机制、SPI扩展负载均衡策略、SPI扩展增强型负载均衡策略、SPI扩展实现注册中心、心跳机制、增强型心跳机制、重试机制、整合Spring、整合SpringBoot和整合Docker等篇章，共计80+篇文章。
 

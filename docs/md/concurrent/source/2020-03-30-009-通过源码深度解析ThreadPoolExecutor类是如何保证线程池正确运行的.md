@@ -1,16 +1,16 @@
 ---
 layout: post
-category: binghe-code-concurrent
+category: curleyg-code-concurrent
 title: 通过源码深度解析ThreadPoolExecutor类是如何保证线程池正确运行的
 tagline: by CurleyG
-tag: [concurrent,binghe-code-concurrent]
+tag: [concurrent,curleyg-code-concurrent]
 excerpt: 对于线程池的核心类ThreadPoolExecutor来说，有哪些重要的属性和内部类为线程池的正确运行提供重要的保障呢？。
 lock: need
 ---
 
 # 【高并发】通过源码深度解析ThreadPoolExecutor类是如何保证线程池正确运行的
 
-**大家好，我是冰河~~**
+**大家好，我是CurleyG~~**
 
 对于线程池的核心类ThreadPoolExecutor来说，有哪些重要的属性和内部类为线程池的正确运行提供重要的保障呢？
 

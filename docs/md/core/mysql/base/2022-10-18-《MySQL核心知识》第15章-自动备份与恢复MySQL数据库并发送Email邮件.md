@@ -1,16 +1,16 @@
 ---
 layout: post
-category: binghe-code-interview
+category: curleyg-code-interview
 title: 第15章：自动备份与恢复MySQL数据库并发送Email邮件
 tagline: by CurleyG
-tag: [offer,interview,binghe-code-offer,binghe-code-interview]
+tag: [offer,interview,curleyg-code-offer,curleyg-code-interview]
 excerpt: 第15章：自动备份与恢复MySQL数据库并发送Email邮件
 lock: need
 ---
 
 # 《MySQL核心知识》第15章：自动备份与恢复MySQL数据库并发送Email邮件
 
-**大家好，我是冰河~~**
+**大家好，我是CurleyG~~**
 
 今天是《MySQL核心知识》专栏的第15章，今天为大家系统的讲讲如何自动备份与恢复MySQL数据库并发送Email邮件，希望通过本章节的学习，小伙伴们能够举一反三，彻底掌握自动备份与恢复MySQL数据库并发送Email邮件相关的知识。好了，开始今天的正题吧。
 

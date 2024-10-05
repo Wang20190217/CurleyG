@@ -1,9 +1,9 @@
 ---
 layout: post
-category: binghe-spring-ioc
+category: curleyg-spring-ioc
 title: 第34章：LocalDateTime反序列化失败案例
 tagline: by CurleyG
-tag: [spring.spring-ioc,binghe-spring-ioc]
+tag: [spring.spring-ioc,curleyg-spring-ioc]
 excerpt: 最近，有个小伙伴问我：我在SpringBoot项目中，使用@JsonFormat注解标注LocalDateTime类型的字段时，LocalDateTime反序列化失败，这个我该怎么处理呢？别急，我们一起来解决这个问题。
 lock: need
 ---

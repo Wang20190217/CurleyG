@@ -1,16 +1,16 @@
 ---
 layout: post
-category: binghe-code-bytecode
+category: curleyg-code-bytecode
 title: 字节码编程 | 使用Javassist动态生成Hello World
 tagline: by CurleyG
-tag: [bytecode,binghe-code-bytecode]
+tag: [bytecode,curleyg-code-bytecode]
 excerpt: 字节码编程在实际的业务开发（CRUD）中并不常用，但是随着网络编程，RPC、动态字节码增强技术和自动化测试以及零侵入APM监控的不断发展与大量使用，越来越多的技术需要使用到字节码编程。
 lock: need
 ---
 
 # 字节码编程 | 使用Javassist动态生成Hello World
 
-**大家好，我是冰河~~**
+**大家好，我是CurleyG~~**
 
 字节码编程在实际的业务开发（CRUD）中并不常用，但是随着网络编程，RPC、动态字节码增强技术和自动化测试以及零侵入APM监控的不断发展与大量使用，越来越多的技术需要使用到字节码编程。
 

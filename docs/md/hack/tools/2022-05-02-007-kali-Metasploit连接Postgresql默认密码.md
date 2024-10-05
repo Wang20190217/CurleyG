@@ -1,9 +1,9 @@
 ---
 layout: post
-category: binghe-code-hack
+category: curleyg-code-hack
 title: kali Metasploit 连接 Postgresql 默认密码
 tagline: by CurleyG
-tag: [hack,binghe-code-hack]
+tag: [hack,curleyg-code-hack]
 excerpt: kali Metasploit 连接 Postgresql 默认密码
 lock: need
 ---

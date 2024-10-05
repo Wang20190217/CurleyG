@@ -1,9 +1,9 @@
 ---
 layout: post
-category: binghe-code-hack
+category: curleyg-code-hack
 title: 使用Metasploit中的NMap插件扫描并渗透内网主机
 tagline: by CurleyG
-tag: [hack,binghe-code-hack]
+tag: [hack,curleyg-code-hack]
 excerpt: 使用Metasploit中的NMap插件扫描并渗透内网主机
 lock: need
 ---
