@@ -227,6 +227,10 @@ module.exports = {
                                         link: '/md/core/java/basics/2024-10-05-java面向对象.md'
                                     },
                                     {
+                                        text: '继承',
+                                        link: '/md/core/java/basics/2024-10-14-继承.md'
+                                    },
+                                    {
                                         text: '正则表达式',
                                         link: '/md/core/java/basics/2022-04-28-全网最全正则表达式总结.md'
                                     }
@@ -802,6 +806,7 @@ function getBarJava() {
                 "basics/default.md",
                 "basics/2024-10-05-java基础语法.md",
                 "basics/2024-10-05-java面向对象.md",
+                "basics/2024-10-14-继承.md",
                 "basics/2022-04-28-全网最全正则表达式总结.md",
             ]
         },
