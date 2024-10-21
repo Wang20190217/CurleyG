@@ -210,56 +210,36 @@ module.exports = {
                         ]
                     },
                     {
-                        text: 'Java核心技术',
+                        text: '工作流技术',
                         items: [
                             {
-                                text: 'Java基础',  items: [
+                                text: 'Flowable学习',  items: [
                                     {
-                                        text: '概述',
-                                        link: '/md/core/java/basics/default.md'
+                                        text: 'Flowable基础',
+                                        link: '/md/core/flowable/default.md'
                                     },
                                     {
-                                        text: '基本语法',
+                                        text: 'Flowable高级',
                                         link: '/md/core/java/basics/2024-10-05-java基础语法.md'
                                     },
                                     {
-                                        text: '面向对象',
+                                        text: 'Flowable实战',
                                         link: '/md/core/java/basics/2024-10-05-java面向对象.md'
-                                    },
-                                    {
-                                        text: '继承',
-                                        link: '/md/core/java/basics/2024-10-14-继承.md'
-                                    },
-                                    {
-                                        text: '正则表达式',
-                                        link: '/md/core/java/basics/2022-04-28-全网最全正则表达式总结.md'
                                     }
                                 ]
                             },
                             {
-                                text: 'Java进阶',  items: [
+                                text: 'Activiti学习',  items: [
                                     {
-                                        text: 'Java进阶',
+                                        text: 'Activiti基础',
                                         link: '/md/core/java/advanced/default.md'
-                                    }
+                                    },
+                                    {
+                                        text: 'Activiti高级',
+                                        link: '/md/core/java/basics/2024-10-05-java基础语法.md'
+                                    },
                                 ]
                             },
-                            {
-                                text: 'Java高级',  items: [
-                                    {
-                                        text: 'Java高级',
-                                        link: '/md/core/java/senior/default.md'
-                                    }
-                                ]
-                            },
-                            {
-                                text: 'Java8新特性',  items: [
-                                    {
-                                        text: 'Java8新特性',
-                                        link: '/md/core/java/java8/2022-03-31-001-Java8有哪些新特性呢？.md'
-                                    }
-                                ]
-                            }
                         ]
                     },
                     {
@@ -327,27 +307,59 @@ module.exports = {
                             }
                         ]
                     },
-                    /*{
-                        text: '性能调优',
+                    {
+                        text: 'Java核心技术',
                         items: [
                             {
-                                text: 'JVM性能调优',
-                                link: '/md/performance/jvm/default.md'
+                                text: 'Java基础',  items: [
+                                    {
+                                        text: '概述',
+                                        link: '/md/core/java/basics/default.md'
+                                    },
+                                    {
+                                        text: '基本语法',
+                                        link: '/md/core/java/basics/2024-10-05-java基础语法.md'
+                                    },
+                                    {
+                                        text: '面向对象',
+                                        link: '/md/core/java/basics/2024-10-05-java面向对象.md'
+                                    },
+                                    {
+                                        text: '继承',
+                                        link: '/md/core/java/basics/2024-10-14-继承.md'
+                                    },
+                                    {
+                                        text: '正则表达式',
+                                        link: '/md/core/java/basics/2022-04-28-全网最全正则表达式总结.md'
+                                    }
+                                ]
                             },
                             {
-                                text: 'Tomcat性能调优',
-                                link: '/md/performance/tomcat/default.md'
+                                text: 'Java进阶',  items: [
+                                    {
+                                        text: 'Java进阶',
+                                        link: '/md/core/java/advanced/default.md'
+                                    }
+                                ]
                             },
                             {
-                                text: 'MySQL性能调优',
-                                link: '/md/performance/mysql/default.md'
+                                text: 'Java高级',  items: [
+                                    {
+                                        text: 'Java高级',
+                                        link: '/md/core/java/senior/default.md'
+                                    }
+                                ]
                             },
                             {
-                                text: '操作系统性能调优',
-                                link: '/md/performance/system/default.md'
+                                text: 'Java8新特性',  items: [
+                                    {
+                                        text: 'Java8新特性',
+                                        link: '/md/core/java/java8/2022-03-31-001-Java8有哪些新特性呢？.md'
+                                    }
+                                ]
                             }
                         ]
-                    },*/
+                    },
                     {
                         text: '并发编程',
                         items: [
@@ -713,6 +725,7 @@ module.exports = {
                     "/md/core/design/java/": getBarJavaDegign(),
                     "/md/core/design/concurrent/": getBarConcurrentDegign(),
                     "/md/core/mycat/": getBarMycat(),
+                    "/md/core/flowable/": getFlowable(),
                     "/md/core/docker/": getBarDocker(),
                     "/md/core/nginx/": getBarNginx(),
                     "/md/performance/": getBarPerformance(),
@@ -897,6 +910,19 @@ function getBarMycat() {
             ]
         }
     ]
+}
+
+function getFlowable() {
+        return [
+            {
+                title: "Flowable基础篇",
+                collapsable: false,
+                sidebarDepth: 0,
+                children: [
+                    "default.md"
+                ]
+            }
+        ]
 }
 
 // docker
