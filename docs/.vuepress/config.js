@@ -210,36 +210,56 @@ module.exports = {
                         ]
                     },
                     {
-                        text: '工作流技术',
+                        text: 'Java核心技术',
                         items: [
                             {
-                                text: 'Flowable学习',  items: [
+                                text: 'Java基础',  items: [
                                     {
-                                        text: 'Flowable基础',
-                                        link: '/md/core/flowable/default.md'
+                                        text: '概述',
+                                        link: '/md/core/java/basics/default.md'
                                     },
                                     {
-                                        text: 'Flowable高级',
+                                        text: '基本语法',
                                         link: '/md/core/java/basics/2024-10-05-java基础语法.md'
                                     },
                                     {
-                                        text: 'Flowable实战',
+                                        text: '面向对象',
                                         link: '/md/core/java/basics/2024-10-05-java面向对象.md'
+                                    },
+                                    {
+                                        text: '继承',
+                                        link: '/md/core/java/basics/2024-10-14-继承.md'
+                                    },
+                                    {
+                                        text: '正则表达式',
+                                        link: '/md/core/java/basics/2022-04-28-全网最全正则表达式总结.md'
                                     }
                                 ]
                             },
                             {
-                                text: 'Activiti学习',  items: [
+                                text: 'Java进阶',  items: [
                                     {
-                                        text: 'Activiti基础',
+                                        text: 'Java进阶',
                                         link: '/md/core/java/advanced/default.md'
-                                    },
-                                    {
-                                        text: 'Activiti高级',
-                                        link: '/md/core/java/basics/2024-10-05-java基础语法.md'
-                                    },
+                                    }
                                 ]
                             },
+                            {
+                                text: 'Java高级',  items: [
+                                    {
+                                        text: 'Java高级',
+                                        link: '/md/core/java/senior/default.md'
+                                    }
+                                ]
+                            },
+                            {
+                                text: 'Java8新特性',  items: [
+                                    {
+                                        text: 'Java8新特性',
+                                        link: '/md/core/java/java8/2022-03-31-001-Java8有哪些新特性呢？.md'
+                                    }
+                                ]
+                            }
                         ]
                     },
                     {
@@ -308,59 +328,6 @@ module.exports = {
                         ]
                     },
                     {
-                        text: 'Java核心技术',
-                        items: [
-                            {
-                                text: 'Java基础',  items: [
-                                    {
-                                        text: '概述',
-                                        link: '/md/core/java/basics/default.md'
-                                    },
-                                    {
-                                        text: '基本语法',
-                                        link: '/md/core/java/basics/2024-10-05-java基础语法.md'
-                                    },
-                                    {
-                                        text: '面向对象',
-                                        link: '/md/core/java/basics/2024-10-05-java面向对象.md'
-                                    },
-                                    {
-                                        text: '继承',
-                                        link: '/md/core/java/basics/2024-10-14-继承.md'
-                                    },
-                                    {
-                                        text: '正则表达式',
-                                        link: '/md/core/java/basics/2022-04-28-全网最全正则表达式总结.md'
-                                    }
-                                ]
-                            },
-                            {
-                                text: 'Java进阶',  items: [
-                                    {
-                                        text: 'Java进阶',
-                                        link: '/md/core/java/advanced/default.md'
-                                    }
-                                ]
-                            },
-                            {
-                                text: 'Java高级',  items: [
-                                    {
-                                        text: 'Java高级',
-                                        link: '/md/core/java/senior/default.md'
-                                    }
-                                ]
-                            },
-                            {
-                                text: 'Java8新特性',  items: [
-                                    {
-                                        text: 'Java8新特性',
-                                        link: '/md/core/java/java8/2022-03-31-001-Java8有哪些新特性呢？.md'
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
                         text: '并发编程',
                         items: [
                             {
@@ -387,6 +354,39 @@ module.exports = {
                                 text: '系统架构',
                                 link: '/md/concurrent/framework/default.md'
                             }
+                        ]
+                    },
+                    {
+                        text: '工作流技术',
+                        items: [
+                            {
+                                text: 'Flowable学习',  items: [
+                                    {
+                                        text: 'Flowable基础',
+                                        link: '/md/core/flowable/default.md'
+                                    },
+                                    {
+                                        text: 'Flowable高级',
+                                        link: '/md/core/java/basics/2024-10-05-java基础语法.md'
+                                    },
+                                    {
+                                        text: 'Flowable实战',
+                                        link: '/md/core/java/basics/2024-10-05-java面向对象.md'
+                                    }
+                                ]
+                            },
+                            {
+                                text: 'Activiti学习',  items: [
+                                    {
+                                        text: 'Activiti基础',
+                                        link: '/md/core/java/advanced/default.md'
+                                    },
+                                    {
+                                        text: 'Activiti高级',
+                                        link: '/md/core/java/basics/2024-10-05-java基础语法.md'
+                                    },
+                                ]
+                            },
                         ]
                     },
                     {
@@ -615,10 +615,6 @@ module.exports = {
                         text: '🌍知识星球',
                         link: '/md/zsxq/introduce.md'
                     },
-                    /*{
-                        text: '🔥🔥🔥冰河指南',
-                        link: '/md/all/all.md'
-                    },*/
                     {
                         text: '📚书籍',
                         items: [
@@ -698,30 +694,29 @@ module.exports = {
                         ]
                     },
                     {
-                        text: '关于',
+                        text: '学习记录',
                         items: [
-                            {text: '关于自己', link: '/md/about/me/about-me.md'},
-                            {text: '关于学习', link: '/md/about/study/default.md'},
-                            {text: '关于职场', link: '/md/about/job/default.md'},
+                            {
+                                text: '2024年', items: [
+                                    {
+                                        text: '10月',
+                                        link: '/md/learningRecord/202410/default.md'
+                                    }
+
+                                ]
+                            },
                         ]
                     },
                     {
-                        text: 'B站',
-                        link: 'https://space.bilibili.com/517638832'
-                    },
-                    {
                         text: 'Github',
-                        link: 'https://github.com/binghe001/BingheGuide'
-                    }/*,
-                    {
-                        text: 'ChatGPT',
-                        link: 'https://chat.openai.run'
-                    }*/
+                        link: 'https://github.com/Wang20190217'
+                    }
                 ],
                 sidebar: {
                     /*"/md/other/": genBarOther(),*/
                     "/md/core/java/": getBarJava(),
                     "/md/study/": getStudyRoadJava(),
+                    "/md/learningRecord/": getLearningRecord(),
                     "/md/core/design/java/": getBarJavaDegign(),
                     "/md/core/design/concurrent/": getBarConcurrentDegign(),
                     "/md/core/mycat/": getBarMycat(),
@@ -765,7 +760,6 @@ module.exports = {
                     "/md/knowledge/book/": getBarPDFPublish(),
                     "/md/knowledge/all/": getBarBookAll(),
                     "/md/knowledge/pdf/": getBarPDFSink(),
-                    "/md/about/": getBarAbout(),
                     "/md/core/spring/ioc/": getBarSpringIoc(),
                     "/md/core/spring/aop/": getBarSpringAop(),
                     "/md/core/mysql/base/": getMySQLBase(),
@@ -807,7 +801,18 @@ function getStudyRoadJava() {
         }
     ]
 }
-
+function getLearningRecord() {
+    return [
+        {
+            title: "2024年",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "202410/default.md",
+            ]
+        }
+    ]
+}
 // Java
 function getBarJava() {
     return [
@@ -3188,43 +3193,6 @@ function getBarPDFSink() {
                 "2022-11-14-《MySQL核心知识手册》-打包发布.md",
                 "2022-12-05-《从零开始手写RPC框架》电子书发布.md",
                 "2023-01-28-《Spring IOC核心技术》共27章-19万字-打包发布.md",
-            ]
-        }
-    ]
-}
-// getBarAbout
-function getBarAbout() {
-    return [
-        {
-            title: "关于自己",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "me/about-me.md",
-            ]
-        },
-        {
-            title: "关于学习",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "study/default.md",
-            ]
-        },
-        {
-            title: "关于职场",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "job/default.md",
-            ]
-        },
-        {
-            title: "关于面试",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "job/default.md",
             ]
         }
     ]
