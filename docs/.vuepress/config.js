@@ -796,7 +796,12 @@ function getStudyRoadJava() {
             sidebarDepth: 0,
             children: [
                 "concurrent/concurrent_road.md",
-                "java/java_road.md"
+                "java/java_road.md",
+                "web/web_road.md",
+                "network/network.md",
+                "git&github/git&github.md",
+                "linux/linux.md"
+
             ]
         }
     ]
