@@ -708,6 +708,15 @@ module.exports = {
                         ]
                     },
                     {
+                        text: 'it老齐架构900讲',
+                        items: [
+                            {
+                                text: 'it老齐架构900讲',
+                                link: '/md/itlaoqi/【IT老齐001】聊一聊被培训机构神话的架构师.md'
+                            }
+                        ]
+                    },
+                    {
                         text: 'Github',
                         link: 'https://github.com/Wang20190217'
                     }
@@ -715,6 +724,7 @@ module.exports = {
                 sidebar: {
                     /*"/md/other/": genBarOther(),*/
                     "/md/core/java/": getBarJava(),
+                    "/md/itlaoqi/": getItLaoqi(),
                     "/md/study/": getStudyRoadJava(),
                     "/md/learningRecord/": getLearningRecord(),
                     "/md/core/design/java/": getBarJavaDegign(),
@@ -1236,6 +1246,20 @@ function getBarPerformance() {
         }
     ]
 }
+
+function getItLaoqi() {
+    return [
+        {
+            title: "it老齐架构900讲",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "【IT老齐001】聊一聊被培训机构神话的架构师.md",
+            ]
+        },
+    ]
+}
+
 
 // FrameSpring
 function getBarFrameSpring() {
