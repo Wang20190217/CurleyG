@@ -210,59 +210,6 @@ module.exports = {
                         ]
                     },
                     {
-                        text: 'Java核心技术',
-                        items: [
-                            {
-                                text: 'Java基础',  items: [
-                                    {
-                                        text: '概述',
-                                        link: '/md/core/java/basics/default.md'
-                                    },
-                                    {
-                                        text: '基本语法',
-                                        link: '/md/core/java/basics/2024-10-05-java基础语法.md'
-                                    },
-                                    {
-                                        text: '面向对象',
-                                        link: '/md/core/java/basics/2024-10-05-java面向对象.md'
-                                    },
-                                    {
-                                        text: '继承',
-                                        link: '/md/core/java/basics/2024-10-14-继承.md'
-                                    },
-                                    {
-                                        text: '正则表达式',
-                                        link: '/md/core/java/basics/2022-04-28-全网最全正则表达式总结.md'
-                                    }
-                                ]
-                            },
-                            {
-                                text: 'Java进阶',  items: [
-                                    {
-                                        text: 'Java进阶',
-                                        link: '/md/core/java/advanced/default.md'
-                                    }
-                                ]
-                            },
-                            {
-                                text: 'Java高级',  items: [
-                                    {
-                                        text: 'Java高级',
-                                        link: '/md/core/java/senior/default.md'
-                                    }
-                                ]
-                            },
-                            {
-                                text: 'Java8新特性',  items: [
-                                    {
-                                        text: 'Java8新特性',
-                                        link: '/md/core/java/java8/2022-03-31-001-Java8有哪些新特性呢？.md'
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
                         text: '核心技术',
                         items: [
                             {
@@ -279,6 +226,20 @@ module.exports = {
                             },
                             {
                                 text: 'Java核心技术',  items: [
+                                    {
+                                        text: 'Java基础',
+                                        link: '/md/core/java/basics/default.md'
+
+                                    },
+                                    {
+                                        text: 'Java进阶',
+                                        link: '/md/core/java/advanced/default.md'
+                                    },
+                                    {
+                                        text: 'Java高级',
+                                        link: '/md/core/java/senior/default.md'
+
+                                    },
                                     {
                                         text: 'Java8新特性',
                                         link: '/md/core/java/java8/2022-03-31-001-Java8有哪些新特性呢？.md'
@@ -399,8 +360,16 @@ module.exports = {
                         ]
                     },
                     {
-                        text: '分布式',
+                        text: '分布式微服务',
                         items: [
+                            {
+                                text: 'SpringBoot',
+                                link: '/md/microservices/springboot/default.md'
+                            },
+                            {
+                                text: 'SpringCloudAlibaba',
+                                link: '/md/microservices/springcloudalibaba/2022-04-02-SpringCloudAlibaba专栏开篇.md'
+                            },
                             {
                                 text: '分布式事务',items: [
                                     {
@@ -408,9 +377,8 @@ module.exports = {
                                         link: '/md/distributed/transaction/transaction-video-001.md'
                                     }
                                 ]
-                            }
-
-                            /*{
+                            },
+                            {
                                 text: '缓存技术', items: [
                                     {
                                         text: 'Redis',
@@ -473,19 +441,6 @@ module.exports = {
                                         link: '/md/distributed/es/default.md'
                                     }
                                 ]
-                            }*/
-                        ]
-                    },
-                    {
-                        text: '微服务',
-                        items: [
-                            {
-                                text: 'SpringBoot',
-                                link: '/md/microservices/springboot/default.md'
-                            },
-                            {
-                                text: 'SpringCloudAlibaba',
-                                link: '/md/microservices/springcloudalibaba/2022-04-02-SpringCloudAlibaba专栏开篇.md'
                             }
                         ]
                     },
@@ -502,7 +457,7 @@ module.exports = {
                                     {
                                         text: '手写高性能RPC项目',
                                         link: '/md/middleware/rpc/2022-08-24-我设计了一款TPS百万级别的RPC框架.md'
-                                    }/*,
+                                    },
                                     {
                                         text: '《字节码编程》',
                                         link: '/md/middleware/bytecode/2022-04-11-001-工作多年的你依然重复做着CRUD-是否接触过这种技术.md'
@@ -518,7 +473,7 @@ module.exports = {
                                     {
                                         text: '《开源项目》',
                                         link: '/md/middleware/independent/default.md'
-                                    }*/
+                                    }
                                 ]
                             },
                             {
@@ -699,8 +654,8 @@ module.exports = {
                             {
                                 text: '2024年', items: [
                                     {
-                                        text: '10月',
-                                        link: '/md/learningRecord/202410/default.md'
+                                        text: '11月',
+                                        link: '/md/learningRecord/202411/default.md'
                                     }
 
                                 ]
