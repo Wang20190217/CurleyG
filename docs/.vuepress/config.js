@@ -216,7 +216,7 @@ module.exports = {
                                 text: '架构与模式',  items: [
                                     {
                                         text: 'Java极简设计模式',
-                                        link: '/md/core/design/java/2023-07-09-《Java极简设计模式》第01章-单例模式.md'
+                                        link: '/md/core/design/java/2022-11-19-《Java极简设计模式》设计模式六大原则.md'
                                     },
                                     {
                                         text: '实战高并发设计模式',
@@ -908,7 +908,7 @@ function getBarDocker() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "2023-09-10-《容器化核心设计》第01章-制作Java基础docker镜像.md"
+                "2022-11-19-《Java极简设计模式》设计模式六大原则.md"
             ]
         }
     ]
@@ -917,6 +917,14 @@ function getBarDocker() {
 // Java
 function getBarJavaDegign() {
     return [
+        {
+            title: "起始篇：设计模式六大原则",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-11-19-《Java极简设计模式》设计模式六大原则.md",
+            ]
+        },
         {
             title: "第一篇：创建型模式",
             collapsable: false,
