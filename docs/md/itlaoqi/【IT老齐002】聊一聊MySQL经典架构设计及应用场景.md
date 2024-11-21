@@ -1,5 +1,5 @@
 # 【IT老齐002】聊一聊MySQL经典架构设计及应用场景
-
+需要额外的去学习binlog日志同步，分库分表Mycat和 ShardingSphere
 ## 单库模式
 
 
