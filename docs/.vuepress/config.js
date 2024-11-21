@@ -1218,6 +1218,7 @@ function getItLaoqi() {
             sidebarDepth: 0,
             children: [
                 "【IT老齐001】聊一聊被培训机构神话的架构师.md",
+                "【IT老齐002】聊一聊MySQL经典架构设计及应用场景.md",
             ]
         },
     ]
@@ -3366,14 +3367,6 @@ function getStarBall() {
             sidebarDepth: 0,
             children: [
                 "project/sa/2022-04-02-sa.md"
-            ]
-        },
-        {
-            title: "手撕源码",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "project/spring/2022-12-02-spring.md"
             ]
         }
     ]
