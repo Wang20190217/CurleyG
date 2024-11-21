@@ -37,7 +37,8 @@
         },
         methods: {
             isPay() {
-                return this.$page.frontmatter.pay;
+                // return this.$page.frontmatter.pay;
+              return false;
             },
             articleObj: function () {
                 let $article = $('.theme-default-content');
