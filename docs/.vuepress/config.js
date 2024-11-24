@@ -200,7 +200,7 @@ module.exports = {
                         text: '踩坑经历',
                         items: [
                             {
-                                text: '面试必问系列',  items: [
+                                text: '面试必问系列', items: [
                                     {
                                         text: '面试必问',
                                         link: '/md/interview/2022-04-18-001-面试必问-聊聊JVM性能调优.md'
@@ -213,7 +213,7 @@ module.exports = {
                         text: '核心技术',
                         items: [
                             {
-                                text: '架构与模式',  items: [
+                                text: '架构与模式', items: [
                                     {
                                         text: 'Java极简设计模式',
                                         link: '/md/core/design/java/2022-11-19-《Java极简设计模式》设计模式六大原则.md'
@@ -225,7 +225,7 @@ module.exports = {
                                 ]
                             },
                             {
-                                text: 'Java核心技术',  items: [
+                                text: 'Java核心技术', items: [
                                     {
                                         text: 'Java基础',
                                         link: '/md/core/java/basics/default.md'
@@ -255,7 +255,7 @@ module.exports = {
                                 ]
                             },
                             {
-                                text: '容器化核心技术',  items: [
+                                text: '容器化核心技术', items: [
                                     {
                                         text: 'Dockek核心技术',
                                         link: '/md/core/docker/2023-09-10-《容器化核心设计》第01章-制作Java基础docker镜像.md'
@@ -263,7 +263,7 @@ module.exports = {
                                 ]
                             },
                             {
-                                text: '分布式存储',  items: [
+                                text: '分布式存储', items: [
                                     {
                                         text: 'Mycat核心技术',
                                         link: '/md/core/mycat/2023-08-11-《Mycat核心技术》第01章-互联网大厂有哪些分库分表的思路和技.md'
@@ -271,7 +271,7 @@ module.exports = {
                                 ]
                             },
                             {
-                                text: '数据库核心技术',  items: [
+                                text: '数据库核心技术', items: [
                                     {
                                         text: 'MySQL基础篇',
                                         link: '/md/core/mysql/base/2022-08-25-MySQL索引底层技术.md'
@@ -279,7 +279,7 @@ module.exports = {
                                 ]
                             },
                             {
-                                text: '服务器核心技术',  items: [
+                                text: '服务器核心技术', items: [
                                     {
                                         text: 'Nginx核心技术',
                                         link: '/md/core/nginx/2023-07-23-《Nginx核心技术》第01章-安装Nginx.md'
@@ -321,7 +321,7 @@ module.exports = {
                         text: '工作流技术',
                         items: [
                             {
-                                text: 'Flowable学习',  items: [
+                                text: 'Flowable学习', items: [
                                     {
                                         text: 'Flowable基础',
                                         link: '/md/core/flowable/default.md'
@@ -337,7 +337,7 @@ module.exports = {
                                 ]
                             },
                             {
-                                text: 'Activiti学习',  items: [
+                                text: 'Activiti学习', items: [
                                     {
                                         text: 'Activiti基础',
                                         link: '/md/core/java/advanced/default.md'
@@ -371,7 +371,7 @@ module.exports = {
                                 link: '/md/microservices/springcloudalibaba/2022-04-02-SpringCloudAlibaba专栏开篇.md'
                             },
                             {
-                                text: '分布式事务',items: [
+                                text: '分布式事务', items: [
                                     {
                                         text: '分布式事务系列视频',
                                         link: '/md/distributed/transaction/transaction-video-001.md'
@@ -449,7 +449,7 @@ module.exports = {
                         items: [
                             {
                                 text: "中间件项目",
-                                items:[
+                                items: [
                                     {
                                         text: '手写高性能Polaris网关（新）',
                                         link: '/md/project/gateway/start/2024-05-19-start.md'
@@ -478,7 +478,7 @@ module.exports = {
                             },
                             {
                                 text: "高并发项目",
-                                items:[
+                                items: [
                                     {
                                         text: '分布式IM即时通讯系统',
                                         link: '/md/project/im/start/2023-11-20-start.md'
@@ -494,8 +494,18 @@ module.exports = {
                                 ]
                             },
                             {
+                                text: 'SpringBoot项目',
+                                items: [
+                                    {
+                                        text: 'curleyg后台管理系统',
+                                        link: '/md/project/curleyg/1.简介.md'
+                                    },
+                                ]
+                            },
+
+                            {
                                 text: "微服务项目",
-                                items:[
+                                items: [
                                     {
                                         text: '简易电商脚手架项目',
                                         link: '/md/microservices/springcloudalibaba/2022-04-02-SpringCloudAlibaba专栏开篇.md'
@@ -504,7 +514,7 @@ module.exports = {
                             },
                             {
                                 text: "手撕源码",
-                                items:[
+                                items: [
                                     {
                                         text: '手撕Spring6源码',
                                         link: '/md/frame/spring/ioc/2022-12-02-《Spring核心技术》开篇-我要带你一步步调试Spring6.0源码啦.md'
@@ -705,6 +715,7 @@ module.exports = {
                     "/md/middleware/threadpool/": getBarMiddlewareThreadpool(),
                     "/md/middleware/bytecode/": getBarMiddlewareByteCode(),
                     "/md/middleware/rpc/": getBarMiddlewareRPC(),
+                    "/md/project/curleyg/": getCurleyG(),
                     "/md/project/gateway/": getBarGateway(),
                     "/md/distributed/transaction/": getBarDistributedTransaction(),
                     "/md/project/seckill/": getBarPeojectSeckill(),
@@ -771,6 +782,7 @@ function getStudyRoadJava() {
         }
     ]
 }
+
 function getLearningRecord() {
     return [
         {
@@ -783,6 +795,7 @@ function getLearningRecord() {
         }
     ]
 }
+
 // Java
 function getBarJava() {
     return [
@@ -888,16 +901,16 @@ function getBarMycat() {
 }
 
 function getFlowable() {
-        return [
-            {
-                title: "Flowable基础篇",
-                collapsable: false,
-                sidebarDepth: 0,
-                children: [
-                    "default.md"
-                ]
-            }
-        ]
+    return [
+        {
+            title: "Flowable基础篇",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "default.md"
+            ]
+        }
+    ]
 }
 
 // docker
@@ -1172,6 +1185,7 @@ function getBarNginx() {
         }
     ]
 }
+
 // Performance
 function getBarPerformance() {
     return [
@@ -1341,6 +1355,7 @@ function getBarFrameSpring() {
         }
     ]
 }
+
 // cache
 function getBarDistributedCache() {
     return [
@@ -1354,6 +1369,7 @@ function getBarDistributedCache() {
         }
     ]
 }
+
 // Zookeeper
 function getBarZookeeper() {
     return [
@@ -1367,6 +1383,7 @@ function getBarZookeeper() {
         }
     ]
 }
+
 // MQ
 function getBarMQ() {
     return [
@@ -1396,6 +1413,7 @@ function getBarMQ() {
         }
     ]
 }
+
 // getBarInternet
 function getBarInternet() {
     return [
@@ -1409,6 +1427,7 @@ function getBarInternet() {
         }
     ]
 }
+
 // getBarDistributedDubbo
 function getBarDistributedDubbo() {
     return [
@@ -1422,6 +1441,7 @@ function getBarDistributedDubbo() {
         }
     ]
 }
+
 // getBarDistributedMongodb
 function getBarDistributedMongodb() {
     return [
@@ -1435,6 +1455,7 @@ function getBarDistributedMongodb() {
         }
     ]
 }
+
 // getBarDistributedElasticSearch
 function getBarDistributedElasticSearch() {
     return [
@@ -1449,7 +1470,7 @@ function getBarDistributedElasticSearch() {
     ]
 }
 
-function getBarMicroServicesAlibaba(){
+function getBarMicroServicesAlibaba() {
     return [
         {
             title: "第一篇：专栏设计",
@@ -1556,6 +1577,7 @@ function getBarMicroServicesAlibaba(){
         }
     ]
 }
+
 // getBarMicroServices
 function getBarMicroServices() {
     return [
@@ -1569,6 +1591,7 @@ function getBarMicroServices() {
         }
     ]
 }
+
 // getBarMiddlewareByteCode
 function getBarMiddlewareByteCode() {
     return [
@@ -1637,7 +1660,37 @@ function getBarDistributedTransaction() {
     ]
 }
 
-function getBarGateway(){
+
+function getCurleyG() {
+    return [
+        {
+            title: "萌新必读",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "1.简介.md",
+                "2.视频教程.md",
+                "3.功能列表.md",
+                "4.快速启动（后端项目）.md",
+                "5.快速启动（前端项目）.md",
+                "6.接口文档.md",
+                "7.技术选型.md",
+                "8.项目结构.md",
+                "9.一键改包.md",
+                "10.删除功能.md",
+                "11.表结构变更.md",
+                "12.国产信创数据库.md",
+                "13.如何去除 Redis 缓存.md",
+                "14.内网穿透.md",
+                "15.代码热加载.md",
+                "16.迁移模块（适合新项目）.md",
+
+            ]
+        }
+    ]
+}
+
+function getBarGateway() {
     return [
         {
             title: "专栏介绍",
@@ -2125,6 +2178,7 @@ function getBarMiddlewareIndependent() {
         }
     ]
 }
+
 // getBarMiddlewareLimiter
 function getBarMiddlewareLimiter() {
     return [
@@ -2138,6 +2192,7 @@ function getBarMiddlewareLimiter() {
         }
     ]
 }
+
 // getBarMiddlewareThreadpool
 function getBarMiddlewareThreadpool() {
     return [
@@ -2565,6 +2620,7 @@ function getBarPeojectSeckill() {
         }
     ]
 }
+
 // getBarPeojectIM
 function getBarPeojectIM() {
     return [
@@ -2837,6 +2893,7 @@ function getBarPeojectIM() {
         }*/
     ]
 }
+
 // getBarHackEnvironment
 function getBarHackEnvironment() {
     return [
@@ -3118,6 +3175,7 @@ function getBarHackTools() {
         }
     ]
 }
+
 // getInterview
 function getInterview() {
     return [
@@ -3138,6 +3196,7 @@ function getInterview() {
         }
     ]
 }
+
 // getBarBookAll
 function getBarBookAll() {
     return [
@@ -3170,6 +3229,7 @@ function getBarPDFPublish() {
         }
     ]
 }
+
 // getBarPDFSink
 function getBarPDFSink() {
     return [
@@ -3190,6 +3250,7 @@ function getBarPDFSink() {
         }
     ]
 }
+
 // getMySQLBase
 function getMySQLBase() {
     return [
@@ -3280,6 +3341,7 @@ function getBarSpringIoc() {
         }
     ]
 }
+
 // getBarSpringAop
 function getBarSpringAop() {
     return [
@@ -3317,6 +3379,7 @@ function getBarCoreJVM() {
         }
     ]
 }
+
 // getStarBall
 function getStarBall() {
     return [
@@ -3371,6 +3434,7 @@ function getStarBall() {
         }
     ]
 }
+
 // getBarAll()
 function getBarAll() {
     return [
