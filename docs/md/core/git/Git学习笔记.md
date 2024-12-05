@@ -86,9 +86,9 @@ git config --global user.email "your_email"
 
 **config 的三个作用域（优先级从上到小依次递减）：**
 
-- local 只对某个仓库有效
-- global 对当前用户所有仓库有效
-- system 对系统所有登录的用户有效
+- local 只对某个仓库有效 (存储在每个仓库的 `.git/config` 文件中) 。
+- global 对当前用户所有仓库有效 (存储在用户的主目录下的 `.gitconfig` 文件中（Linux/macOS）或 `_gitconfig` 文件中（Windows）)
+- system 对系统所有登录的用户有效    (存储在系统范围的配置文件中，通常位于 `/etc/gitconfig`（Linux/macOS）或 `%PROGRAMDATA%\Git\config`（Windows）)
 
 显示config的配置，加--list
 
@@ -259,6 +259,286 @@ git log --all --graph
 
 ![image-20241124230233585](https://curleyg-1311489005.cos.ap-shanghai.myqcloud.com/202411242302248.png)
 
+## 8.探究.git目录
+
+![image-20241125085857500](https://curleyg-1311489005.cos.ap-shanghai.myqcloud.com/image-20241125085857500.png)
+
+### 1.HEAD 
+
+```tex
+ref: refs/heads/master   //指向refs文件下的heads文件下的master文件  master文件保存的是当前分支最后一次的commit id
+```
+
+- **`refs/heads/master`**：这个引用指向的是名为“master”的分支的最新一次提交。在Git中，分支实际上就是指向某个提交的指针。当你创建一个新的提交到master分支时，这个指针会向前移动，指向最新的提交。
+- **`HEAD`**：这个是一个特殊的指针，它指向当前的工作分支。当你初始化一个仓库或者克隆一个仓库时，默认情况下`HEAD`会指向主分支（通常是master或main）。当你切换分支时，`HEAD`也会随之改变，指向新的分支。
+
+当你看到`ref: refs/heads/master HEAD`这样的信息，这通常意味着你的`HEAD`是指向`refs/heads/master`的，也就是说，当前你正在工作在master分支上。这种状态也被称为`HEAD`是“附着”（attached）的，因为它明确地附着在一个具体的分支上。
+
+当切换分支的时候，内容会发生变化
+
+### 2.config
+
+![image-20241125090516585](https://curleyg-1311489005.cos.ap-shanghai.myqcloud.com/image-20241125090516585.png)
+
+`.git/config` 文件是 Git 仓库的一个重要组成部分，它保存了与该仓库相关的配置信息。这些配置可以控制仓库的行为方式，包括用户信息、远程仓库地址、分支设置以及其他各种选项。以下是 `.git/config` 文件中一些常见配置项的说明：
+
+1. **用户信息**：
+
+   `[user]` 部分包含了用户的姓名 (`name`) 和电子邮件地址 (`email`)。这些信息会在每次提交时自动附加到提交记录中，以便标识提交者。
+
+   ```properties
+   [user]
+       name = Your Name
+       email = you@example.com
+   ```
+
+2. **远程仓库**：
+
+   `[remote "origin"]` 部分定义了远程仓库的信息，包括仓库的名称和URL。通常，“origin”是默认的远程仓库名称。
+
+   ```properties
+   [remote "origin"]
+   	url = https://github.com/Wang20190217/CurleyG.git
+   	fetch = +refs/heads/*:refs/remotes/origin/*
+   ```
+
+3. **分支信息**：
+
+   `[branch "master"]` 或 `[branch "main"]` 部分定义了本地分支与远程分支之间的关系，例如合并策略
+
+   ```properties
+   [branch "master"]
+   	remote = origin
+   	merge = refs/heads/master
+   ```
+
+4. **别名**：
+
+   `[alias]` 部分可以用来定义命令的别名，简化常用命令的输入
+
+   ```properties
+   [alias]
+       co = checkout
+       br = branch
+       ci = commit
+       st = status
+   ```
+
+5. **核心设置**：
+
+   [core]部分包含了一些基本的仓库设置，比如文件模式、自动换行处理等。
+
+   ```
+   [core]
+       repositoryformatversion = 0
+       filemode = false
+       bare = false
+       logallrefupdates = true
+   ```
+
+6. **差异工具和合并工具**：
+
+   可以指定使用的差异工具和合并工具，帮助解决冲突。
+
+   ```
+   [diff]
+       tool = mydifftool
+   [merge]
+       tool = mymergetool
+   ```
+
+7. **其他自定义设置**：
+
+   用户可以根据需要添加更多的自定义设置，以适应特定的工作流程或个人偏好。
+
+这个文件是纯文本格式的，可以直接用文本编辑器打开并编辑。但是，更推荐使用 Git 命令行工具来进行配置修改，
+
+例如 `git config user.name "Your Name"` 和 `git config user.email "you@example.com"`，这样可以确保格式正确且不会破坏现有配置。
+
+### 3.refs
+
+![image-20241125091812378](https://curleyg-1311489005.cos.ap-shanghai.myqcloud.com/image-20241125091812378.png)
+
+在 Git 中，`.git/refs` 目录用于存储指向仓库中特定提交（commit）的引用（references）。这些引用包括分支、标签和其他特殊指针。理解 `.git/refs` 目录的作用对于深入理解 Git 的内部工作机制非常有帮助。
+
+.git/refs 目录结构
+
+`.git/refs` 目录通常包含以下几个子目录：
+
+1. **heads**：
+   - 存储所有本地分支的引用。每个分支对应一个文件，文件名是分支的名称，文件内容是该分支指向的提交的哈希值。
+   - 例如，`refs/heads/master` 文件的内容可能是 `abc1234567890abcdef1234567890abcdef123456`，表示 `master` 分支指向的提交的哈希值。
+2. **tags**：
+   - 存储所有标签的引用。每个标签对应一个文件，文件名是标签的名称，文件内容是该标签指向的提交的哈希值。
+   - 例如，`refs/tags/v1.0` 文件的内容可能是 `def1234567890abcdef1234567890abcdef123456`，表示标签 `v1.0` 指向的提交的哈希值。
+3. **remotes**：
+   - 存储所有远程仓库的引用。每个远程仓库对应一个子目录，子目录下又包含各个远程分支的引用。
+   - 例如，`refs/remotes/origin/master` 文件的内容可能是 `ghi1234567890abcdef1234567890abcdef123456`，表示远程仓库 `origin` 的 `master` 分支指向的提交的哈希值。
+
+特殊引用
+
+除了上述标准引用外，还有一些特殊的引用文件：
+
+1. **HEAD**：
+
+   存储当前工作目录所处的分支或提交的引用。通常是一个符号链接（symbolic reference），指向当前分支的引用。
+
+   例如，`HEAD` 文件的内容可能是 `ref: refs/heads/master`，表示当前工作目录在 `master` 分支上。
+
+   如果你在分离的 HEAD 状态下，`HEAD` 文件会直接包含一个提交的哈希值。
+
+2. **ORIG_HEAD**：
+
+   记录上一次 HEAD 的位置，常用于撤销操作或恢复到之前的状态。
+
+3. **FETCH_HEAD**：
+
+   记录最近一次 `git fetch` 操作的结果，通常用于合并或拉取操作。
+
+4. **MERGE_HEAD**：
+
+   在合并过程中，记录被合并分支的提交哈希值。
+
+使用示例
+
+你可以手动查看和修改这些引用文件，但通常建议使用 Git 命令来管理这些引用，以避免错误。
+
+- 查看当前分支的引用：
+
+  ```
+  cat .git/refs/heads/master
+  ```
+
+- 创建一个新的分支引用：
+
+  ```
+  git update-ref refs/heads/new-branch abc1234567890abcdef1234567890abcdef123456
+  ```
+
+- 删除一个分支引用：
+
+  ```
+  git update-ref -d refs/heads/old-branch
+  ```
+
+总结
+
+`.git/refs` 目录是 Git 仓库的核心部分之一，它存储了所有分支、标签和其他引用的信息。通过这些引用，Git 能够有效地管理和追踪仓库的历史记录。了解这些引用的工作原理有助于更好地理解和使用 Git。
+
+### 4.object 
+
+`.git/objects` 目录是 Git 仓库的重要组成部分，用于存储 Git 仓库中的所有对象。这些对象包括提交（commit）、树（tree）、Blob（文件内容）和标签（tag）。理解 `.git/objects` 目录的结构和作用有助于深入了解 Git 的内部工作机制。
+
+.git/objects 目录结构
+
+`.git/objects` 目录通常包含以下内容：
+
+1. **对象文件**：
+
+   每个对象文件都存储在一个以对象哈希值命名的文件中。
+
+   对象文件的路径由其 SHA-1 哈希值的前两位和剩余部分组成。
+
+   例如，一个对象的完整哈希值是
+
+   ```
+   abc1234567890abcdef1234567890abcdef123456
+   ```
+
+   则该对象文件的路径为：
+
+   ```
+   .git/objects/ab/c1234567890abcdef1234567890abcdef123456
+   ```
+
+2. **打包文件（pack files）**：
+
+   - 为了提高效率和减少磁盘空间占用，Git 会将多个对象打包成一个或多个打包文件（`.pack` 和 `.idx` 文件）。
+   - `.pack` 文件存储压缩后的对象数据。
+   - `.idx` 文件存储索引信息，用于快速查找 `.pack` 文件中的对象。
+
+对象类型
+
+Git 中的对象主要有四种类型：
+
+1. **Blob 对象**：
+   - 表示文件内容。
+   - 每个 Blob 对象存储一个文件的内容。
+2. **Tree 对象**：
+   - 表示目录结构。
+   - 包含指向其他 Tree 对象和 Blob 对象的引用。
+   - 类似于文件系统的目录结构。
+3. **Commit 对象**：
+   - 表示一次提交。
+   - 包含提交信息、作者、日期、父提交等。
+   - 指向一个 Tree 对象，表示该提交的目录结构。
+4. **Tag 对象**：
+   - 用于标记特定的提交。
+   - 可以包含签名等附加信息。
+   - 通常用于标记发布版本。
+
+示例
+
+假设你有一个提交对象，其哈希值为 `abc1234567890abcdef1234567890abcdef123456`，你可以找到该对象的文件路径：
+
+```
+.git/objects/ab/c1234567890abcdef1234567890abcdef123456
+```
+
+查看对象内容
+
+你可以使用 `git cat-file` 命令来查看对象的内容和类型：
+
+- **查看对象类型**：
+
+  ```
+  git cat-file -t abc1234567890abcdef1234567890abcdef123456
+  ```
+
+- **查看对象内容**：
+
+  ```
+  git cat-file -p abc1234567890abcdef1234567890abcdef123456
+  ```
+
+打包文件
+
+Git 使用打包文件来优化存储和性能。你可以使用以下命令来查看和管理打包文件：
+
+- **列出所有打包文件**：
+
+  ```
+  ls .git/objects/pack
+  ```
+
+- **查看打包文件的内容**：
+
+  
+
+  ```
+  git verify-pack -v .git/objects/pack/*.pack
+  ```
+
+- **手动创建打包文件**：
+
+  ```
+  git repack
+  ```
+
+总结
+
+`.git/objects` 目录是 Git 仓库的核心部分，用于存储所有对象。这些对象包括文件内容（Blob）、目录结构（Tree）、提交（Commit）和标签（Tag）。通过理解 `.git/objects` 目录的结构和内容，可以更好地掌握 Git 的内部工作机制，从而更高效地使用和管理 Git 仓库。
+
+
+
+## 9.commit 、tree 和blob的关系
+
+
+
+# 相关命令
+
+
+
 ```
 git branch -v`
 ```
@@ -276,3 +556,78 @@ git checkout -b temp 415c5c8086e16399`
 1. 创建一个新分支 `temp`。
 2. 切换到新创建的分支 `temp`。
 3. 将新分支的起点设置为指定的提交 `415c5c8086e16399`。
+
+
+
+```shell
+git checkout  temp   //temp 为分支的名称
+```
+
+切换分支
+
+
+
+`git cat-file` 是一个 Git 命令，用于显示仓库中对象的类型或内容。`-t` 选项用于显示对象的类型。这个命令对于调试和检查 Git 仓库内部的对象非常有用。
+
+### git cat-file 命令
+
+```
+git cat-file -t <object>
+```
+
+参数说明
+
+- `<object>`：这是你要检查的 Git 对象的哈希值。可以是提交（commit）、树（tree）、Blob（文件内容）或标签（tag）的哈希值。
+
+常见对象类型
+
+- **commit**：提交对象，包含提交信息、作者、日期、父提交等。
+- **tree**：树对象，表示目录结构，包含指向其他树对象和 Blob 对象的引用。
+- **blob**：Blob 对象，表示文件内容。
+- **tag**：标签对象，通常用于标记特定的提交，可以包含签名等附加信息。
+
+示例
+
+假设你有一个提交的哈希值 `abc1234567890abcdef1234567890abcdef123456`，你可以使用以下命令来检查它的类型：
+
+```
+git cat-file -t abc1234567890abcdef1234567890abcdef123456
+```
+
+如果这个哈希值对应的是一个提交对象，输出将会是：
+
+```
+commit
+```
+
+如果你有一个 Blob 对象的哈希值 `def567890abcdef1234567890abcdef123456`，你可以使用以下命令来检查它的类型：
+
+```
+git cat-file -t def567890abcdef1234567890abcdef123456
+```
+
+如果这个哈希值对应的是一个 Blob 对象，输出将会是：
+
+```
+blob
+```
+
+其他用途
+
+- **显示对象内容**：如果你想查看对象的具体内容，可以使用 `-p` 选项：
+
+  ```
+  git cat-file -p <object>
+  ```
+
+- **检查对象大小**：如果你想查看对象的大小，可以使用 `-s` 选项：
+
+  
+
+  ```
+  git cat-file -s <object>
+  ```
+
+总结
+
+`git cat-file -t` 命令用于显示 Git 仓库中对象的类型。这对于理解和调试 Git 仓库的内部结构非常有用。通过结合其他选项，如 `-p` 和 `-s`，你可以获取更多关于对象的信息。
