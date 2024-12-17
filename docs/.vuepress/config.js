@@ -790,7 +790,7 @@ function getLearningRecord() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "202410/default.md",
+                "202411/default.md",
             ]
         }
     ]
@@ -1872,7 +1872,7 @@ function getCurleyG() {
                 "137.【模型接入】智谱 GLM.md",
                 "138.【模型接入】讯飞星火.md",
                 "139.【模型接入】微软 OpenAI.md",
-                "140.【模型接入】谷歌 Gemini.md",
+                "140.【模型接入】谷歌Gemini.md",
                 "141.【模型接入】Stable Diffusion.md",
                 "142.【模型接入】Midjourney.md",
                 "143.【模型接入】Suno.md",
